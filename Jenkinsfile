@@ -3,19 +3,19 @@ pipeline {
   stages {
     stage('stage 1') {
       steps {
-        sh 'echo "hello build stage"'
+        sh 'ifconfig'
       }
     }
 
-    stage('stage2') {
+    stage('stage 2') {
       steps {
-        sh 'echo "hello test stage"'
+        sh 'cat /etc/os-release'
       }
     }
 
-    stage('stage3') {
+    stage('stage 3') {
       steps {
-        sh 'echo "hello deploy stage"'
+        sh 'free -h'
       }
     }
 
