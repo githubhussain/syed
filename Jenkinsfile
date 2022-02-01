@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('stage 1') {
       steps {
-        sh 'ifconfig'
+        sh 'hostname -I'
       }
     }
 
@@ -15,7 +15,7 @@ pipeline {
 
     stage('stage 3') {
       steps {
-        sh 'df -h'
+        sh 'uname'
       }
     }
 
