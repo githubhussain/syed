@@ -15,7 +15,7 @@ pipeline {
 
     stage('stage 3') {
       steps {
-        sh 'uname'
+        sh 'free -h'
       }
     }
 
