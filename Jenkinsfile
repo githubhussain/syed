@@ -15,7 +15,7 @@ pipeline {
 
     stage('stage 3') {
       steps {
-        sh 'df -h'
+        sh 'ifconfig'
       }
     }
 
