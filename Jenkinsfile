@@ -15,7 +15,7 @@ pipeline {
 
     stage('stage') {
       steps {
-        sh 'ifconfig'
+        sh 'hostname -I'
       }
     }
 
