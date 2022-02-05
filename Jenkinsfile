@@ -1,19 +1,19 @@
 pipeline {
   agent any
   stages {
-    stage('stage 1') {
+    stage('stage') {
       steps {
         sh 'uname'
       }
     }
 
-    stage('stage 2') {
+    stage('stage') {
       steps {
         sh 'cat /etc/os-release'
       }
     }
 
-    stage('stage 3') {
+    stage('stage') {
       steps {
         sh 'ifconfig'
       }
