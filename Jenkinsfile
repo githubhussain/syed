@@ -15,7 +15,7 @@ pipeline {
 
      stage('stage'){
        steps{
-        sh 'hostname -I'
+        sh 'uname'
        }
      }
 
