@@ -1,0 +1,15 @@
+pipeline(){
+    agent any
+    stages{
+        stage('build'){
+            steps{
+                sh 'mpstat'
+            }
+        }
+        stage('test'){
+            steps{
+                sh 'ifconfig'
+            }
+        }
+    }
+}
