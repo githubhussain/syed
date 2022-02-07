@@ -1,8 +1,8 @@
-name: ec2 instance
+- name: ec2 instance
   hosts: [ myapp ]
 
-  tasks:
-       - name: instance
+   tasks:
+        - name: instances1
           amazon.aws.ec2:
                 image: ami-08e4e35cccc6189f4
                 instance_type: t2.micro
