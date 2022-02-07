@@ -1,5 +1,5 @@
   name: ec2 instance
-  hosts: [ myapp ]
+  hosts: localhost
    tasks:
          name: instances1
           amazon.aws.ec2:
